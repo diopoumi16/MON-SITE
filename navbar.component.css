@@ -1,0 +1,63 @@
+/* HEADER */
+header{
+background:#1E88E5;
+color:white;
+padding:15px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+header h1{
+font-size:22px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-weight:500;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+
+/* ===== HEADER ===== */
+header{
+    background:linear-gradient(90deg,#1565C0,#1E88E5);
+    padding:15px 60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:white;
+}
+
+header h2{
+    font-weight:600;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-weight:500;
+}
+
+.btn{
+    padding:10px 20px;
+    border-radius:5px;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.btn-white{
+    background:red;
+    color:#1565C0;
+}
+
+.btn-green{
+    background:#43A047;
+    color:white;
+}

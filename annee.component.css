@@ -1,0 +1,42 @@
+.menu-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top:30px;
+}
+
+.btn {
+  padding: 12px 20px;
+  height: 50px;
+  text-align: center;
+ 
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* Couleurs */
+.profil {
+  background-color: #1e88e5;
+}
+
+.classe {
+  background-color: #43a047;
+}
+
+.annee {
+  background-color: #fb8c00;
+}
+
+.matiere {
+  background-color: #8e24aa;
+}

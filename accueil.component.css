@@ -1,0 +1,174 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f4f6f9;
+color:#333;
+}
+
+
+
+/* SECTION GENERALE */
+.section{
+padding:60px 40px;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:40px;
+color:#1E88E5;
+}
+
+/* HERO */
+.hero{
+background:linear-gradient(rgba(30,136,229,0.8),rgba(67,160,71,0.8)),
+url('https://images.unsplash.com/photo-1588072432836-e10032774350') no-repeat center/cover;
+height:80vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+.hero h2{
+font-size:40px;
+margin-bottom:20px;
+}
+
+.btn{
+background:#43A047;
+padding:12px 25px;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+text-decoration:none;
+}
+
+.btn:hover{
+background:#2e7d32;
+}
+
+
+/* ===== FEATURES ===== */
+.features{
+    display:flex;
+    justify-content:space-around;
+    padding:60px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    width:30%;
+    border-radius:10px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#1565C0;
+}
+
+.section{
+padding:70px 60px;
+text-align:center;
+}
+
+.section h3{
+font-size:30px;
+color:#0f2c75;
+margin-bottom:50px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h4{
+margin-bottom:15px;
+color:#1e4db7;
+}
+
+.videos{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.video-card{
+background:white;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.video-card img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+.video-card h5{
+padding:15px;
+}
+
+.dashboard{
+background:white;
+margin:60px;
+padding:40px;
+border-radius:20px;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.dashboard h4{
+margin-bottom:30px;
+color:#0f2c75;
+}
+
+.progress{
+background:#e0e6f0;
+border-radius:20px;
+overflow:hidden;
+margin-bottom:20px;
+}
+
+.progress-bar{
+height:22px;
+background:linear-gradient(to right,#1e4db7,#2563eb);
+width:70%;
+}
+
+.progress-bar.yellow{
+background:linear-gradient(to right,#ffd43b,#f4b400);
+width:50%;
+}
+
+footer{
+background:#0f2c75;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:60px;
+}

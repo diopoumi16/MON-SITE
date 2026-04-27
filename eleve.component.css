@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    background:#f4f6f9;
+}
+
+/* HEADER */
+header{
+    background:linear-gradient(90deg,#1E88E5,#1565C0);
+    padding:15px 60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:white;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:600;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:30px;
+    font-weight:500;
+}
+
+/* CONTAINER */
+.main{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:60px 80px;
+}
+
+/* FORM SECTION */
+.form-section{
+    width:55%;
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
+.form-section h1{
+    color:#1E88E5;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    margin-bottom:25px;
+    color:#555;
+}
+
+.section-title{
+    margin-top:20px;
+    margin-bottom:10px;
+    color:#43A047;
+    font-weight:600;
+}
+
+.form-group{
+    display:flex;
+    gap:15px;
+}
+
+input, select{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    font-size:14px;
+    transition:0.3s;
+}
+
+input:focus, select:focus{
+    border-color:#1E88E5;
+    outline:none;
+}
+
+/* CHECKBOX */
+.checkbox{
+    margin:10px 0 20px 0;
+    font-size:14px;
+}
+
+/* BUTTON */
+button{
+    width:100%;
+    padding:15px;
+    background:#43A047;
+    border:none;
+    color:white;
+    font-size:16px;
+    border-radius:10px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#2e7d32;
+}
+
+.login-link{
+    margin-top:15px;
+    text-align:center;
+}
+
+.login-link a{
+    color:#1E88E5;
+    text-decoration:none;
+    font-weight:500;
+}
+
+/* IMAGE SECTION */
+.image-section{
+    width:40%;
+    text-align:center;
+}
+
+
+
+/* RESPONSIVE */
+@media(max-width:1000px){
+    .main{
+        flex-direction:column;
+    }
+    .form-section{
+        width:100%;
+        margin-bottom:40px;
+    }
+    .image-section{
+        width:100%;
+        
+    }
+}

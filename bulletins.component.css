@@ -1,0 +1,89 @@
+body{
+font-family: Arial, sans-serif;
+background:#f4f6f9;
+margin:0;
+padding:20px;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1{
+text-align:center;
+color:#1e3a8a;
+}
+
+.info{
+display:grid;
+grid-template-columns:1fr 1fr;
+margin-bottom:20px;
+}
+
+.info p{
+margin:5px 0;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+}
+
+th, td{
+padding:10px;
+text-align:center;
+border-bottom:1px solid #ddd;
+}
+
+th{
+background:#1e3a8a;
+color:white;
+}
+
+tr:hover{
+background:#f1f1f1;
+}
+
+.badge{
+padding:5px 10px;
+border-radius:20px;
+color:white;
+font-size:12px;
+}
+
+.excellent{background:green;}
+.tresbien{background:#2563eb;}
+.bien{background:#eab308;}
+.assezbien{background:orange;}
+
+.summary{
+margin-top:20px;
+background:#f8fafc;
+padding:15px;
+border-radius:8px;
+}
+
+.buttons{
+margin-top:20px;
+text-align:center;
+}
+
+button{
+background:#1e3a8a;
+color:white;
+padding:10px 20px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+margin:5px;
+}
+
+button:hover{
+background:#14275e;
+}
